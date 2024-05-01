@@ -71,6 +71,7 @@
     <Content Include="App_Data\InsideNUCES_log.ldf">
       <DependentUpon>InsideNUCES.mdf</DependentUpon>
     </Content>
+    <Content Include="HtmlPage1.html" />
     <Content Include="InsideNUCES-Courses.aspx" />
     <Content Include="InsideNUCES-PublicHome.aspx" />
     <Content Include="InsideNUCES-StudentHome.aspx" />
