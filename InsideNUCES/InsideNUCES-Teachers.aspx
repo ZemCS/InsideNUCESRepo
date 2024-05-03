@@ -32,13 +32,6 @@
             z-index: -1;
         }
 
-        body {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            overflow: hidden;
-        }
-
         form {
             display: flex;
             flex-direction: column;
@@ -158,22 +151,212 @@
             <!-- Adjusted selector to use h1 -->
             <div class="boxContainer">
                 <div class="box">
-                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
-                    <h3>TEACHER NAME</h3>
-                    <p>Quick Overview</p>
-                    <a href="InsideNUCES-TeacherInfo.aspx" class="button">read more</a>
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/44_-_Dr._Aamir_Wali_Asst_Prof__HoD_AIDS.JPG" alt="">
+                    <h3>Aamir Wali</h3>
+                    <p>Professor & HOD</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Aamir%20Wali" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/02_-_Dr._Kashif_Zafar_Prof__HoD_CS.png" alt="">
+                    <h3>Kashif Zafar</h3>
+                    <p>Professor & HOD</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Kashif%20Zafar" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/139_-_Dr._Akhlaq_Ahmad_Bhatti_Professor_Math.JPG" alt="">
+                    <h3>Akhlaq Ahmad Bhatti</h3>
+                    <p>Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Akhlaq%20Ahmad%20Bhatti" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/05_-_Dr._Zareen_Alamgir_Assoc_Prof._CS.JPG" alt="">
+                    <h3>Zareen Alamgir</h3>
+                    <p>Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Zareen%20Alamgir" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/WhatsApp_Image_2023-06-19_at_09.52.55.jpg" alt="">
+                    <h3>Saman Shahid</h3>
+                    <p>Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Saman%20Shahid" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/01_-_Dr._Hammad_Naveed_Professor_CS__Director.JPG" alt="">
+                    <h3>Hammad Naveed</h3>
+                    <p>Adj. Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Hammad%20Naveed" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/07_-_Dr._Saira_Karim_Asst_Prof_CS.JPG" alt="">
+                    <h3>Saira Karim</h3>
+                    <p>Associate Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Saira%20Karim" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/10_-_Dr._Zeeshan_Ali_Khan_Asst_Prof_CS.JPG" alt="">
+                    <h3>Zeeshan Ali Khan</h3>
+                    <p>Associate Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Zeeshan%20Ali%20Khan" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/Aatira_Anum.jpg" alt="">
+                    <h3>Aatira Anum</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Aatira%20Anum" class="button">More details</a>
+                </div>
+
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/144_-_Dr._Zahida_Mansoor_Asst_Professor_SH.JPG" alt="">
+                    <h3>Zahida Mansoor</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Zahida%20Mansoor" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/4239.jfif" alt="">
+                    <h3>Maimoona Akram</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Maimoona%20Akram" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/46-_Dr._Mirza_Mubasher_Baig_Asst._Prof._AI-DS.JPG" alt="">
+                    <h3>Mirza Mubasher Baig</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Mirza%20Mubasher%20Baig" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/4236_DlE9anc.jpg" alt="">
+                    <h3>Muhammad Ahmad Raza</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Muhammad%20Ahmad%20Raza" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/images.jpeg-5-removebg-preview.png" alt="">
+                    <h3>Samin Iftikhar</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Samin%20Iftikhar" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/6667_2.png" alt="">
+                    <h3>Faisal Aslam</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Faisal%20Aslam" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/21_-_Sobia_Tariq_Javed_Asst_Prof_CS.JPG" alt="">
+                    <h3>Sobia Tariq Javed</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Sobia%20Tariq%20Javed" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/52-_Tazeem_Haider_Lecturer_AI-DS_WyQbhRR.JPG" alt="">
+                    <h3>Tazeem Haider</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Tazeem%20Haider" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/37_-_Hira_Butt_Jun._Lecturer_CS_lxWdszd.JPG" alt="">
+                    <h3>Hira Butt</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Hira%20Butt" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/31-_M._Saif_Ul_Islam_Lecturer_CS.JPG" alt="">
+                    <h3>Saif ul Islam</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Saif%20ul%20Islam" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/30_-_Mubashar_HussaIn_Lecturer_CS.jpg" alt="">
+                    <h3>Mubashar Hussain</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Mubashar%20Hussain" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/26_-_Saifullah_Tanvir_Lecturer_CS_siJWJG8.jpg" alt="">
+                    <h3>Saifullah Tanvir</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Muhammad%20Saifullah%20Tanvir" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/49-_Sana_Fatima_Lecturer_AI-DS.JPG" alt="">
+                    <h3>Sana Fatima</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Sana%20Fatima" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/6379.png" alt="">
+                    <h3>Ansa Liaqat</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Ansa%20Liaqat" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/160_-_Kanwal_Saleem_Lecturer_Stats.JPG" alt="">
+                    <h3>Kanwal Saleem</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Kanwal%20Saleem" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/40_-_Salman_Shoaib_Instructor_CS.JPG" alt="">
+                    <h3>Salman Shoaib</h3>
+                    <p>Junior Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Salman%20Shoaib" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/6771.png" alt="">
+                    <h3>Saba Tariq</h3>
+                    <p>Junior Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Saba%20Tariq" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/38-_Mamoona_Akbar_Jun._Lecturer_CS.JPG" alt="">
+                    <h3>Mamoona Akbar Khan</h3>
+                    <p>Junior Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Mamoona%20Akbar%20Khan" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://lhr.nu.edu.pk/media/Faculty/Sohaib_Ahmad.jpg" alt="">
+                    <h3>Sohaib Ahmad</h3>
+                    <p>Lab Instructor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Sohaib%20Ahmad" class="button">More details</a>
                 </div>
                 <div class="box">
                     <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
-                    <h3>TEACHER NAME</h3>
-                    <p>Quick Overview</p>
-                    <a href="InsideNUCES-TeacherInfo.aspx" class="button">read more</a>
+                    <h3>Haris Bin Rehan</h3>
+                    <p>Lab Instructor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Haris%20Bin%20Rehan" class="button">More details</a>
                 </div>
                 <div class="box">
                     <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
-                    <h3>TEACHER NAME</h3>
-                    <p>Quick Overview</p>
-                    <a href="InsideNUCES-TeacherInfo.aspx" class="button">read more</a>
+                    <h3>Raida Munir</h3>
+                    <p>Lab Instructor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Raida%20Munir" class="button">More details</a>
                 </div>
             </div>
         </div>
