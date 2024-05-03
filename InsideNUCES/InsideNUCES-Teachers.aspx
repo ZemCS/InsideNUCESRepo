@@ -32,13 +32,6 @@
             z-index: -1;
         }
 
-        body {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            overflow: hidden;
-        }
-
         form {
             display: flex;
             flex-direction: column;
@@ -159,21 +152,211 @@
             <div class="boxContainer">
                 <div class="box">
                     <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
-                    <h3>TEACHER NAME</h3>
-                    <p>Quick Overview</p>
-                    <a href="InsideNUCES-TeacherInfo.aspx" class="button">read more</a>
+                    <h3>Aamir Wali</h3>
+                    <p>Professor & HOD</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Aamir%20Wali" class="button">More details</a>
                 </div>
                 <div class="box">
                     <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
-                    <h3>TEACHER NAME</h3>
-                    <p>Quick Overview</p>
-                    <a href="InsideNUCES-TeacherInfo.aspx" class="button">read more</a>
+                    <h3>Kashif Zafar</h3>
+                    <p>Professor & HOD</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Kashif%20Zafar" class="button">More details</a>
                 </div>
                 <div class="box">
                     <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
-                    <h3>TEACHER NAME</h3>
-                    <p>Quick Overview</p>
-                    <a href="InsideNUCES-TeacherInfo.aspx" class="button">read more</a>
+                    <h3>Akhlaq Ahmad Bhatti</h3>
+                    <p>Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Akhlaq%20Ahmad%20Bhatti" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Zareen Alamgir</h3>
+                    <p>Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Zareen%20Alamgir" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Saman Shahid</h3>
+                    <p>Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Saman%20Shahid" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Hammad Naveed</h3>
+                    <p>Adj. Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Hammad%20Naveed" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Saira Karim</h3>
+                    <p>Associate Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Saira%20Karim" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Zeeshan Ali Khan</h3>
+                    <p>Associate Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Zeeshan%20Ali%20Khan" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Aatira Anum</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Aatira%20Anum" class="button">More details</a>
+                </div>
+
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Zahida Mansoor</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Zahida%20Mansoor" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Maimoona Akram</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Maimoona%20Akram" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Mirza Mubasher Baig</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Mirza%20Mubasher%20Baig" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Muhammad Ahmad Raza</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Muhammad%20Ahmad%20Raza" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Samin Iftikhar</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Samin%20Iftikhar" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Faisal Aslam</h3>
+                    <p>Assistant Professor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Faisal%20Aslam" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Sobia Tariq Javed</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Sobia%20Tariq%20Javed" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Tazeem Haider</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Tazeem%20Haider" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Hira Butt</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Hira%20Butt" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Saif ul Islam</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Saif%20ul%20Islam" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Mubashar Hussain</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Mubashar%20Hussain" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Saifullah Tanvir</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Muhammad%20Saifullah%20Tanvir" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Sana Fatima</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Sana%20Fatima" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Ansa Liaqat</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Ansa%20Liaqat" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Kanwal Saleem</h3>
+                    <p>Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Kanwal%20Saleem" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Salman Shoaib</h3>
+                    <p>Junior Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Salman%20Shoaib" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Saba Tariq</h3>
+                    <p>Junior Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Saba%20Tariq" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Mamoona Akbar Khan</h3>
+                    <p>Junior Lecturer</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Mamoona%20Akbar%20Khan" class="button">More details</a>
+                </div>
+            </div>
+            <br>
+            <div class="boxContainer">
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Haris Bin Rehan</h3>
+                    <p>Lab Instructor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Haris%20Bin%20Rehan" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Raida Munir</h3>
+                    <p>Lab Instructor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Raida%20Munir" class="button">More details</a>
+                </div>
+                <div class="box">
+                    <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
+                    <h3>Sohaib Ahmad</h3>
+                    <p>Lab Instructor</p>
+                    <a href="InsideNUCES-TeacherInfo.aspx?teacherName=Sohaib%20Ahmad" class="button">More details</a>
                 </div>
             </div>
         </div>

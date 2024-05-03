@@ -67,9 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\InsideNUCES.mdf" />
-    <Content Include="App_Data\InsideNUCES_log.ldf">
-      <DependentUpon>InsideNUCES.mdf</DependentUpon>
+    <Content Include="App_Data\teachers.mdf" />
+    <Content Include="App_Data\teachers_log.ldf">
+      <DependentUpon>teachers.mdf</DependentUpon>
     </Content>
     <Content Include="InsideNUCES-Courses.aspx" />
     <Content Include="InsideNUCES-PublicHome.aspx" />
