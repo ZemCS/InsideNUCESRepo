@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\courses.mdf" />
+    <Content Include="App_Data\courses_log.ldf">
+      <DependentUpon>courses.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\teachers.mdf" />
     <Content Include="App_Data\teachers_log.ldf">
       <DependentUpon>teachers.mdf</DependentUpon>

@@ -186,7 +186,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-left:-38.1vh;
+            margin-left: -38.1vh;
         }
 
             .navBar ul li {
@@ -249,37 +249,87 @@
                     <label for="timings">
                         <ion-icon name="time-outline"></ion-icon>
                     </label>
-                    <label for="ta">                                       
+                    <label for="ta">
                         <ion-icon name="person-outline"></ion-icon>
                     </label>
                     <div class="indicator"></div>
                 </div>
                 <div class="content">
                     <div class="contentBrnch" for="bio">
-                        <h2>BIO</h2><br>
-                        <p> <asp:Label ID="lblTeacherBio" runat="server" Text=""></asp:Label></p><br><br>
-                        <p> <asp:Label ID="lblTeacherEmail" runat="server" Text=""></asp:Label></p><br>
-                        <p> <asp:Label ID="lblTeacherNumber" runat="server" Text=""></asp:Label></p>
+                        <h2>BIO</h2>
+                        <br>
+                        <p>
+                            <asp:Label ID="lblTeacherBio" runat="server" Text=""></asp:Label>
+                        </p>
+                        <br>
+                        <br>
+                        <p>
+                            <asp:Label ID="lblTeacherEmail" runat="server" Text=""></asp:Label>
+                        </p>
+                        <br>
+                        <p>
+                            <asp:Label ID="lblTeacherNumber" runat="server" Text=""></asp:Label>
+                        </p>
                     </div>
                     <div class="contentBrnch" for="cv">
-                        <h2>Education</h2><br>
-                        <p> <asp:Label ID="lblTeacherBS" runat="server" Text=""></asp:Label></p><br>
-                        <p> <asp:Label ID="lblTeacherMS" runat="server" Text=""></asp:Label></p><br>
-                        <p> <asp:Label ID="lblTeacherPhD" runat="server" Text=""></asp:Label></p>
+                        <h2>Education</h2>
+                        <br>
+                        <p>
+                            <asp:Label ID="lblTeacherBS" runat="server" Text=""></asp:Label>
+                        </p>
+                        <br>
+                        <p>
+                            <asp:Label ID="lblTeacherMS" runat="server" Text=""></asp:Label>
+                        </p>
+                        <br>
+                        <p>
+                            <asp:Label ID="lblTeacherPhD" runat="server" Text=""></asp:Label>
+                        </p>
                     </div>
                     <div class="contentBrnch" for="courses">
-                        <h2>Courses</h2><br>
-                       <p> <asp:Label ID="lblTeacherCourse1" runat="server" Text=""></asp:Label></p><br>
-                       <p> <asp:Label ID="lblTeacherCourse2" runat="server" Text=""></asp:Label></p><br>
-                       <p> <asp:Label ID="lblTeacherCourse3" runat="server" Text=""></asp:Label></p>
+                        <h2>Courses</h2>
+                        <br>
+                        <p>
+                            <asp:Label ID="lblTeacherCourse1" runat="server" Text=""></asp:Label>
+                        </p>
+                        <br>
+                        <p>
+                            <asp:Label ID="lblTeacherCourse2" runat="server" Text=""></asp:Label>
+                        </p>
+                        <br>
+                        <p>
+                            <asp:Label ID="lblTeacherCourse3" runat="server" Text=""></asp:Label>
+                        </p>
                     </div>
                     <div class="contentBrnch" for="timings">
-                        <h2>Timings</h2><br>
-                         <p> <asp:Label ID="lblTeacherTimings" runat="server" Text=""></asp:Label></p>
+                        <h2>Timings</h2>
+                        <br>
+                        <p>
+                            <asp:Label ID="lblTeacherTimings" runat="server" Text=""></asp:Label>
+                        </p>
                     </div>
                     <div class="contentBrnch" for="ta">
-                        <h2>TA</h2><br>
-                       <p> <asp:Label ID="lblTeacherTA" runat="server" Text=""></asp:Label></p>
+                        <h2>TA</h2>
+                        <br>
+                        <p>
+                            <% 
+                                if (lblTeacherTA_RollNo.Text != "")
+                                {
+                                    lblOpeningBracket.Text = "(";
+                                    lblClosingBracket.Text = ")";
+                                }
+                                else
+                                {
+                                    lblOpeningBracket.Text = " ";
+                                    lblClosingBracket.Text = " ";
+                                }
+                            %>
+                            <asp:Label ID="lblTeacherTA" runat="server" Text=""></asp:Label>
+                            <asp:Label ID="lblOpeningBracket" runat="server" Text=""></asp:Label>
+                            <asp:Label ID="lblTeacherTA_RollNo" runat="server" Text=""></asp:Label>
+                            <asp:Label ID="lblClosingBracket" runat="server" Text=""></asp:Label>
+                        </p>
+
                     </div>
                 </div>
             </div>

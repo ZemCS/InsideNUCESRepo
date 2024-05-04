@@ -45,6 +45,7 @@ namespace InsideNUCES
                                 lblTeacherTimings.Text = reader["Office_Timings"].ToString();
                                 lblTeacherEmail.Text = reader["Email"].ToString();
                                 lblTeacherNumber.Text = reader["Contact_Number"].ToString();
+                                lblTeacherTA_RollNo.Text = reader["TA_RollNumber"].ToString();
 
                                 object taValue = reader["TA"];
                                 if (taValue != DBNull.Value)
