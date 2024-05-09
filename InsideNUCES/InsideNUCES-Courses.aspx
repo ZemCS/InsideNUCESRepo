@@ -160,9 +160,9 @@
             <div class="boxContainer">
                 <div class="box">
                     <img src="https://cdn-icons-png.freepik.com/256/171/171322.png" alt="">
-                    <h3>COURSE NAME</h3>
+                    <h3>Programming Fundamentals</h3>
                     <p>Quick Overview</p>
-                    <a href="InsideNUCES-CourseInfo.aspx" class="button">read more</a>
+                     <a href="InsideNUCES-CourseInfo.aspx?courseName=Programming%20Fundamentals" class="button">More details</a>
                 </div>
                 <div class="box">
                     <img src="https://cdn-icons-png.freepik.com/256/171/171322.png" alt="">
