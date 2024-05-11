@@ -199,7 +199,7 @@
                 <li><a href="InsideNUCES-StudentHome.aspx">Student Home</a></li>
                 <li><a href="InsideNUCES-PublicHome.aspx">Public Home</a></li>
                 <li><a href="InsideNUCES-Teachers.aspx">Instructors</a></li>
-                <li><a href="InsideNUCES-PublicHome.aspx">Public Home</a></li>
+                <li><a href="InsideNUCES-Courses.aspx">Courses</a></li>
             </ul>
         </div>
         <div class="container">
@@ -207,25 +207,39 @@
             <div class="boxContainer">
                 <div class="box">
                     <img src="https://cdn-icons-png.freepik.com/256/171/171322.png" alt="">
-                    <h3>Course Database</h3>
-                    <a href="#" class="button">manage</a>
+                    <h3>Ater Course Database</h3>
+                    <a href="InsideNUCES-AdminCourse.aspx" class="button">manage</a>
                 </div>
                 <div class="box">
                     <img src="https://static-00.iconduck.com/assets.00/person-icon-256x242-au2z2ine.png" alt="">
-                    <h3>Instructor Database</h3>
-                    <a href="#" class="button">manage</a>
+                    <h3>Alter Instructor Database</h3>
+                    <a href="InsideNUCES-AdminInstructor.aspx" class="button">manage</a>
                 </div>
                 <div class="box">
                     <img src="https://static-00.iconduck.com/assets.00/teacher-icon-1937x2048-0tp4usd6.png" alt="">
-                    <h3>Student Database</h3>
-                    <a href="#" class="button">manage</a>
+                    <h3>Alter Student Database</h3>
+                    <a href="InsideNUCES-AdminStudent.aspx" class="button">manage</a>
                 </div>
             </div>
         </div>
         <div class="inputBox">
-            <input type="text" required="required" />
-            <span>Search Teachers or Courses</span>
+            <input type="text" id="searchInput" required="required" onkeypress="searchKeyPress(event)" />
+            <span>Search Teachers</span>
         </div>
     </form>
 </body>
+<script>
+    function searchKeyPress(e) {
+        e = e || window.event;
+        if (e.key === 'Enter') {
+            e.preventDefault(); // Prevent default form submission
+            var searchText = document.getElementById('searchInput').value.trim();
+            if (searchText !== '') {
+                // Replace spaces with '+' for URL
+                searchText = searchText.replace(/\s+/g, '+');
+                window.location.href = 'InsideNUCES-TeacherInfo.aspx?teacherName=' + searchText;
+            }
+        }
+    }
+</script>
 </html>

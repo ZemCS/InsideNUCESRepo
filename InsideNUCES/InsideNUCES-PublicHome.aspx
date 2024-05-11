@@ -141,9 +141,23 @@
             </ul>
         </div>
         <div class="inputBox">
-            <input type="text" required="required" />
-            <span>Search Teachers or Courses</span>
+            <input type="text" id="searchInput" required="required" onkeypress="searchKeyPress(event)" />
+            <span>Search Teachers</span>
         </div>
     </form>
 </body>
+    <script>
+        function searchKeyPress(e) {
+            e = e || window.event;
+            if (e.key === 'Enter') {
+                e.preventDefault(); // Prevent default form submission
+                var searchText = document.getElementById('searchInput').value.trim();
+                if (searchText !== '') {
+                    // Replace spaces with '+' for URL
+                    searchText = searchText.replace(/\s+/g, '+');
+                    window.location.href = 'InsideNUCES-TeacherInfo.aspx?teacherName=' + searchText;
+                }
+            }
+        }
+    </script>
 </html>

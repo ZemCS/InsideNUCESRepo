@@ -71,6 +71,9 @@
     <Content Include="App_Data\InsideNUCES_log.ldf">
       <DependentUpon>InsideNUCES.mdf</DependentUpon>
     </Content>
+    <Content Include="InsideNUCES-AdminCourse.aspx" />
+    <Content Include="InsideNUCES-AdminInstructor.aspx" />
+    <Content Include="InsideNUCES-AdminStudent.aspx" />
     <Content Include="InsideNUCES-Courses.aspx" />
     <Content Include="InsideNUCES-PublicHome.aspx" />
     <Content Include="InsideNUCES-StudentHome.aspx" />
@@ -83,6 +86,27 @@
     <Content Include="InsideNUCES-CourseInfo.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InsideNUCES-AdminCourse.aspx.cs">
+      <DependentUpon>InsideNUCES-AdminCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsideNUCES-AdminCourse.aspx.designer.cs">
+      <DependentUpon>InsideNUCES-AdminCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsideNUCES-AdminInstructor.aspx.cs">
+      <DependentUpon>InsideNUCES-AdminInstructor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsideNUCES-AdminInstructor.aspx.designer.cs">
+      <DependentUpon>InsideNUCES-AdminInstructor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsideNUCES-AdminStudent.aspx.cs">
+      <DependentUpon>InsideNUCES-AdminStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsideNUCES-AdminStudent.aspx.designer.cs">
+      <DependentUpon>InsideNUCES-AdminStudent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="InsideNUCES-Courses.aspx.cs">
       <DependentUpon>InsideNUCES-Courses.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -15,7 +15,7 @@ namespace InsideNUCES
         {
 
         }
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\znaee\source\repos\InsideNUCES\InsideNUCES\App_Data\InsideNUCES.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\znaee\source\repos\InsideNUCESRepo\InsideNUCES\App_Data\InsideNUCES.mdf;Integrated Security=True");
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
             if (HiddenName.Value != "" && HiddenUsername.Value != "" && HiddenPassword.Value != "" && HiddenType.Value != "")
@@ -32,6 +32,15 @@ namespace InsideNUCES
                         cmd.Parameters.AddWithValue("@Password", HiddenPassword.Value);
                         cmd.Parameters.AddWithValue("@Type", HiddenType.Value);
                         cmd.ExecuteNonQuery();
+
+                        // If the type is "Student", insert into the Student table
+                        if (HiddenType.Value == "Student")
+                        {
+                            SqlCommand studentCmd = new SqlCommand("INSERT INTO Student (Name) VALUES (@Name)", conn);
+                            studentCmd.Parameters.AddWithValue("@Name", HiddenName.Value);
+                            studentCmd.ExecuteNonQuery();
+                        }
+
                         conn.Close();
                         string script = "alert('Registered Successfully');";
                         ClientScript.RegisterStartupScript(this.GetType(), "registeredSuccessfully", script, true);
@@ -58,6 +67,7 @@ namespace InsideNUCES
                 ClientScript.RegisterStartupScript(this.GetType(), "registrationFailed", script, true);
             }
         }
+
 
 
         int check(string username)
