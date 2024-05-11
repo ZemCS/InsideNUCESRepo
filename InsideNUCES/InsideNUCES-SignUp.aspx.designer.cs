@@ -24,40 +24,31 @@ namespace InsideNUCES
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// HiddenName control.
+        /// HiddenCourseName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField HiddenName;
+        protected global::System.Web.UI.WebControls.HiddenField HiddenCourseName;
 
         /// <summary>
-        /// HiddenUsername control.
+        /// HiddenColumnName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField HiddenUsername;
+        protected global::System.Web.UI.WebControls.HiddenField HiddenColumnName;
 
         /// <summary>
-        /// HiddenPassword control.
+        /// HiddenEntry control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField HiddenPassword;
-
-        /// <summary>
-        /// HiddenType control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField HiddenType;
+        protected global::System.Web.UI.WebControls.HiddenField HiddenEntry;
 
         /// <summary>
         /// ImageButton1 control.
