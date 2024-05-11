@@ -14,23 +14,47 @@ namespace InsideNUCES
         {
 
         }
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\znaee\source\repos\InsideNUCES\InsideNUCES\App_Data\InsideNUCES.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\znaee\source\repos\InsideNUCESRepo\InsideNUCES\App_Data\InsideNUCES.mdf;Integrated Security=True");
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
-            if(HiddenUsername.Value!="" && HiddenPassword.Value != "")
+            if (HiddenUsername.Value != "" && HiddenPassword.Value != "")
             {
-                string query = "select count(*) from [User] where Username = '" + HiddenUsername.Value + "' and Password = '" + HiddenPassword.Value + "'";
+                string query = "SELECT Type, Name FROM [User] WHERE Username = @Username AND Password = @Password";
                 conn.Open();
-                SqlCommand cmd= new SqlCommand(query, conn);
-                int v = (int)cmd.ExecuteScalar();
-                if (v != 1)
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Username", HiddenUsername.Value);
+                cmd.Parameters.AddWithValue("@Password", HiddenPassword.Value);
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read())
                 {
-                    string script = "alert('Wrong Username or Password');";
-                    ClientScript.RegisterStartupScript(this.GetType(), "loginFailed", script, true);
+                    string userType = reader["Type"].ToString();
+                    string studentName = reader["Name"].ToString();
+                    conn.Close();
+                    switch (userType)
+                    {
+                        case "Public":
+                            Response.Redirect("InsideNUCES-PublicHome.aspx");
+                            break;
+                        case "Student":
+                            Response.Redirect($"InsideNUCES-StudentHome.aspx?studentName={HttpUtility.UrlEncode(studentName)}");
+                            break;
+                        case "Admin":
+                            Response.Redirect("InsideNUCES-AdminHome.aspx");
+                            break;
+                        default:
+                            // Handle unknown user types or unexpected errors
+                            string script = "alert('Unknown user type or error occurred');";
+                            ClientScript.RegisterStartupScript(this.GetType(), "loginFailed", script, true);
+                            break;
+                    }
                 }
                 else
                 {
-                    Response.Redirect("InsideNUCES-PublicHome.aspx");
+                    conn.Close();
+                    string script = "alert('Wrong Username or Password');";
+                    ClientScript.RegisterStartupScript(this.GetType(), "loginFailed", script, true);
                 }
             }
             else
@@ -39,5 +63,6 @@ namespace InsideNUCES
                 ClientScript.RegisterStartupScript(this.GetType(), "loginFailed", script, true);
             }
         }
+
     }
 }
