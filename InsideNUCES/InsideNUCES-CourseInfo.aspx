@@ -162,6 +162,11 @@
             font-size: 1.25em;
         }
 
+        .tabs input:nth-child(2):checked ~ .content .contentBrnch:nth-child(2) p{
+            font-size: 1.05em;
+            line-height: 1;
+        }
+        
         .navBar {
             width: 85%;
             padding: 35px 0;
@@ -226,12 +231,27 @@
                 </div>
                 <div class="content">
                     <div class="contentBrnch" for="bio">
-                        <h2>Overview</h2>
-                        <p>Overview and Outline of the Course</p>
+                        <h2>Overview</h2><br>
+                        <p> <asp:Label ID="lblCourseDept" runat="server" Text=""></asp:Label></p><br><br>
+                        <p> <asp:Label ID="lblCourseOverview" runat="server" Text=""></asp:Label></p>
                     </div>
                     <div class="contentBrnch" for="timings">
-                        <h2>Timings, Instructor and Venue</h2>
-                        <p>Information Regarding the Instructors of the Course, their Class Timings and the Venue</p>
+                        <h2>Timings, Instructor and Venue</h2><br>
+                        <p> <asp:Label ID="lblInstructor1" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblIns1Time" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblIns1Venue" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblInstructor2" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblIns2Time" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblIns2Venue" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblInstructor3" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblIns3Time" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblIns3Venue" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblInstructor4" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblIns4Time" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblIns4Venue" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblInstructor5" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblIns5Time" runat="server" Text=""></asp:Label></p><br>
+                        <p> <asp:Label ID="lblIns5Venue" runat="server" Text=""></asp:Label></p><br>
                     </div>
                 </div>
             </div>

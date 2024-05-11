@@ -21,9 +21,9 @@ namespace InsideNUCES
                     string teacherName = Request.QueryString["teacherName"];
                     string query = "SELECT * FROM Instructor WHERE Name = @TeacherName";
 
-                    SqlConnection connectionString = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Zainab Khan Lodhi\source\repos\InsideNUCESRepo\InsideNUCES\App_Data\teachers.mdf;Integrated Security=True");
+                    SqlConnection connectionString = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\znaee\source\repos\InsideNUCESRepo\InsideNUCES\App_Data\InsideNUCES.mdf;Integrated Security=True");
 
-                    using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Zainab Khan Lodhi\source\repos\InsideNUCESRepo\InsideNUCES\App_Data\teachers.mdf;Integrated Security=True"))
+                    using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\znaee\source\repos\InsideNUCESRepo\InsideNUCES\App_Data\InsideNUCES.mdf;Integrated Security=True"))
                     {
                         SqlCommand command = new SqlCommand(query, connection);
                         command.Parameters.AddWithValue("@TeacherName", teacherName);
