@@ -300,36 +300,24 @@
                 </div>
                 <div class="content">
                     <div class="contentBrnch" for="overview">
-                        <h2>Overview</h2><br>
-                        <p><asp:Label ID="stdName" runat="server" Text="Name: "></asp:Label></p><br>
-                        <p><asp:Label ID="stdRollNo" runat="server" Text="Roll Number: "></asp:Label></p><br>
-                        <p><asp:Label ID="stdDegree" runat="server" Text="Degree: "></asp:Label></p><br>
-                        <p><asp:Label ID="stdSection" runat="server" Text="Section: "></asp:Label></p><br>
-                        <p><asp:Label ID="stdCGPA" runat="server" Text="CGPA: "></asp:Label></p><br>
+                        <h2>Overview</h2>
+                        <p>Overview of the Student, Their Roll#, Their CGPA, Their Section etc</p>
                     </div>
                     <div class="contentBrnch" for="transcript">
-                        <h2>Transcript</h2><br>
-                        <p><asp:Label ID="stdT1" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdT2" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdT3" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdT4" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdT5" runat="server" Text=""></asp:Label></p><br>
+                        <h2>Transcript</h2>
+                        <p>Transcript of the Student</p>
                     </div>
                     <div class="contentBrnch" for="attendance">
-                        <h2>Attendance</h2><br>
-                        <p><asp:Label ID="stdA1" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdA2" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdA3" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdA4" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdA5" runat="server" Text=""></asp:Label></p><br>
+                        <h2>Attendance</h2>
+                        <p>Attendance of the Student</p>
                     </div>
                     <div class="contentBrnch" for="timetable">
-                        <h2>Time Table</h2><br>
-                        <p><asp:Label ID="stdV1" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdV2" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdV3" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdV4" runat="server" Text=""></asp:Label></p><br>
-                        <p><asp:Label ID="stdV5" runat="server" Text=""></asp:Label></p><br>
+                        <h2>Time Table</h2>
+                        <p>Timings and Venues of the Student's Classes</p>
+                    </div>
+                    <div class="contentBrnch" for="ta">
+                        <h2>TA</h2>
+                        <p>Details About the Teacher's Assistant</p>
                     </div>
                 </div>
             </div>
