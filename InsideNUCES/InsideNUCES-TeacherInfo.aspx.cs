@@ -45,12 +45,13 @@ namespace InsideNUCES
                                 lblTeacherTimings.Text = reader["Office_Timings"].ToString();
                                 lblTeacherEmail.Text = reader["Email"].ToString();
                                 lblTeacherNumber.Text = reader["Contact_Number"].ToString();
-                                lblTeacherTA_RollNo.Text = reader["TA_RollNumber"].ToString();
 
                                 object taValue = reader["TA"];
+                                object taRN = reader["TA_RollNumber"];
                                 if (taValue != DBNull.Value)
                                 {
                                     lblTeacherTA.Text = taValue.ToString();
+                                    lblTeacherTA_RollNo.Text = taRN.ToString();
                                 }
                                 else
                                 {
