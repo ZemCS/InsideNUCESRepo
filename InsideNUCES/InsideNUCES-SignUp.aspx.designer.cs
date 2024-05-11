@@ -11,7 +11,7 @@ namespace InsideNUCES
 {
 
 
-    public partial class WebForm1
+    public partial class CourseAdmin
     {
 
         /// <summary>

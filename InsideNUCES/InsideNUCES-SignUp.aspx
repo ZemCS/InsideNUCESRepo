@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InsideNUCES-SignUp.aspx.cs" Inherits="InsideNUCES.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InsideNUCES-SignUp.aspx.cs" Inherits="InsideNUCES.InsideNUCES_SignUp" %>
 
 <!DOCTYPE html>
 
