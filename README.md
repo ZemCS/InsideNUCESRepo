@@ -114,8 +114,6 @@ This project is licensed under the [MIT License](LICENSE). See the `LICENSE` fil
 
 ## Contact
 
-For questions or support, please contact [your-email@example.com](mailto:your-email@example.com) or open an issue on GitHub.
+For questions or support, please contact [znaeem164@gmail.com](mailto:znaeem164@gmail.com) or open an issue on GitHub.
 
 ---
-
-Built with ❤️ for FAST - NUCES
